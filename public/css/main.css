@@ -23,4 +23,9 @@ li, ol, ul {
   background: url("../img/cool-background.png");
   background-size: cover; }
 
+.jumbotron {
+  width: 100vw;
+  background: url("../img/cool-background.png");
+  background-size: cover; }
+
 /*# sourceMappingURL=main.css.map */
