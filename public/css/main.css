@@ -10,6 +10,24 @@ body, html {
 .main-content {
   flex-grow: 1; }
 
+.index_services .card {
+  padding: 1%;
+  text-align: center; }
+
+footer {
+  background: #CC4774;
+  padding: 1%;
+  margin-top: 5%;
+  background: #333;
+  color: #e9e9e9; }
+
+.portfolios .card .company-logo {
+  border-radius: 100%;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  top: -30px; }
+
 a {
   text-decoration: none; }
   a:hover {
