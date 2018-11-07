@@ -1,0 +1,29 @@
+
+$headingColor: #00a99d
+// Spear effect
+h2
+    text-align: center
+    overflow: hidden
+
+    span
+        display: inline-block
+        position: relative
+
+        &:before,
+        &:after 
+            content: ""
+            border-bottom: 4px solid $headingColor
+            width: 3em
+            margin: 0 1.5em
+            position: absolute
+            bottom: .5em
+        
+
+        &:before 
+            right: 100%
+        
+
+        &:after 
+            left: 100%
+    
+  

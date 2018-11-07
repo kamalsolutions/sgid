@@ -24,8 +24,8 @@ footer {
 .portfolios .card .company-logo {
   border-radius: 100%;
   position: relative;
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   top: -30px; }
 
 a {
@@ -154,5 +154,23 @@ h2 {
 
 .slick-arrow.slick-hidden {
   display: none; }
+
+h2 {
+  text-align: center;
+  overflow: hidden; }
+  h2 span {
+    display: inline-block;
+    position: relative; }
+    h2 span:before, h2 span:after {
+      content: "";
+      border-bottom: 4px solid #00a99d;
+      width: 3em;
+      margin: 0 1.5em;
+      position: absolute;
+      bottom: 0.5em; }
+    h2 span:before {
+      right: 100%; }
+    h2 span:after {
+      left: 100%; }
 
 /*# sourceMappingURL=main.css.map */
