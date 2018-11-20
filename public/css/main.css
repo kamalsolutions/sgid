@@ -173,7 +173,7 @@ h2 {
     position: relative; }
     h2 span:before, h2 span:after {
       content: "";
-      border-bottom: 4px solid #00a99d;
+      border-bottom: 4px solid #D64937;
       width: 3em;
       margin: 0 0.5em;
       position: absolute;
