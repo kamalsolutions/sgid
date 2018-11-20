@@ -165,22 +165,22 @@ h2 {
 .slick-arrow.slick-hidden {
   display: none; }
 
-h2 {
+h2, h3 {
   text-align: center;
   overflow: hidden; }
-  h2 span {
+  h2 span, h3 span {
     display: inline-block;
     position: relative; }
-    h2 span:before, h2 span:after {
+    h2 span:before, h2 span:after, h3 span:before, h3 span:after {
       content: "";
       border-bottom: 4px solid #D64937;
       width: 3em;
       margin: 0 0.5em;
       position: absolute;
       bottom: 0.5em; }
-    h2 span:before {
+    h2 span:before, h3 span:before {
       right: 100%; }
-    h2 span:after {
+    h2 span:after, h3 span:after {
       left: 100%; }
 
 /*# sourceMappingURL=main.css.map */
