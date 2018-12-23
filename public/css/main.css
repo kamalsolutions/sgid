@@ -70,6 +70,9 @@ li, ol, ul {
   background: url("../img/cool-background.png");
   background-size: cover; }
 
+.jumbotron h1{
+  color: #6ae1ff;
+}
 h2 {
   padding: 20px; }
 
