@@ -71,7 +71,8 @@ li, ol, ul {
   background-size: cover; }
 
 .jumbotron h1{
-  color: #6ae1ff;
+  color: #000;
+  text-shadow: 1px 3px 5px #6287D1;
 }
 h2 {
   padding: 20px; }
