@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="public/css/animate.min.css">
 </head>
 
-<body class="bg-gray-200 overflow-x-hidden">
-  <section class="w-full bg-white px-4 py-4">
+<body class="bg-gray-300 overflow-x-hidden">
+  <section class="w-full bg-gray-300 px-4 py-4">
     <section class="md:flex justify-between">
       <section class="md:1/2 md:flex">
         <a href="mailto:dasare86@gmail.com?subject=Business" class="md:ml-2"><span class="fa fa-envelope">&nbsp;Email Us </span></a>
@@ -29,8 +29,8 @@
     </section>
   </section>
  <!-- navigation -->
- <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
-   <section class="flex-1 flex justify-between items-center">
+ <header class="lg:px-16 px-6 bg-white sticky top-0 flex flex-wrap items-center lg:py-0 py-2">
+   <section class="flex-1 flex justify-between items-center p-1">
      <a href="index.html" class="flex items-center flex-shrink-0">
          <img src="/public/img/logos.png" alt=""/>
      </a>
@@ -88,15 +88,15 @@
             <form action="https://formspree.io/dasare86@gmail.com" method="POST">
             <section class="mb-4">
               <label for="" class="block text-gray-700 font-medium">Name</label>
-              <input type="text" name="name" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block " required>
+              <input type="text" name="name" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block border-2 border-gray-300" required>
             </section>
             <section class="mb-4">
               <label for="" class="block text-gray-700 font-medium">Email</label>
-              <input type="email" name="_replyto" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block " required>
+              <input type="email" name="_replyto" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block border-2 border-gray-300" required>
             </section>
             <section class="mb-4">
               <label class="block text-gray-700 font-medium">Your Message</label>
-              <textarea name="message" rows="7" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block " required></textarea>
+              <textarea name="message" rows="7" class="appearance-none w-full  bg-gray-200 py-2 px-3 text-black font-semibold leading-tight focus:outline-none focus:bg-white block border-2 border-gray-300" required></textarea>
             </section>
             <section class="mb-4">
               <input type="submit" value="Send" class="bg-red-500 xs:mb-2 font-bold  text-white hover:bg-red-600 py-2 px-4 rounded focus:shadow-outline">
