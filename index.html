@@ -1,299 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="SGID is an African focused boutique consulting firm">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SGID | Home</title>
-  <link rel="stylesheet" href="public/css/main.css">
-  <link rel="stylesheet" href="public/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <style>
-      .carousel-open:checked + .carousel-item {
-        position: static;
-        opacity: 100;
-      }
-      .carousel-item {
-        -webkit-transition: opacity 0.6s ease-out;
-        transition: opacity 0.6s ease-out;
-      }
-      #carousel-1:checked ~ .control-1,
-      #carousel-2:checked ~ .control-2,
-      #carousel-3:checked ~ .control-3,
-       #carousel-4:checked ~ .control-4 {
-        display: block;
-      }
-      .carousel-indicators {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        bottom: 2%;
-        left: 0;
-        right: 0;
-        text-align: center;
-        z-index: 10;
-      }
-      #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-      #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-      #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet ,
-      #carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet{
-        color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
-      }
-    </style>
-
+	<title>SGID Ghana</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
+<body>
+	
+			
 
-<body class="bg-gray-300 overflow-x-hidden">
-  <section class="w-full bg-gray-300 p-1 px-4 py-4">
-    <section class="md:flex justify-between">
-      <section class="md:1/2 md:flex">
-        <a href="mailto:dasare86@gmail.com?subject=Business" class="md:ml-2"><span class="fa fa-envelope">&nbsp;Email Us </span></a>
-        <a href="tel:233266630725" class="md:ml-2"><span class="fa fa-phone"></span>&nbsp;+233266630725</a>
+	<div class="flex-w flex-str size1 overlay1">
+		<div class="flex-w flex-col-sb wsize1 bg0 p-l-65 p-t-37 p-b-50 p-r-80 respon1">
+			<div class="wrappic1">
+				<a href="#">
+					<!-- <img src="images/icons/logo.png" alt="IMG"> -->
+				</a>
+			</div>		
+	
+			<div class="w-full flex-c-m p-t-80 p-b-90">
+				<div class="wsize2">
+					<h3 class="l1-txt1 p-b-34 respon3">
+						Under Maitenance
+					</h3>
+					<h4 class="mb-4">We promise we won't take long.</h4>
 
-      </section>
-      <section class="md:1/2  md:flex">
-        <a href="" class="md:ml-2"><span class="fa fa-facebook"></span></a>
-        <a href="" class="md:ml-2"><span class="fa fa-twitter"></span></a>
-        <a href="https://www.linkedin.com/in/daniel-amoako-asare-98196b105/" class="md:ml-2" target="_blank"><span class="fa fa-linkedin"></span></a>
+					<!-- <p class="m2-txt1 p-b-46">
+						Follow us for update now!
+					</p> -->
+<!-- 
+					<form class="contact100-form validate-form m-t-10 m-b-10">
+						<div class="wrap-input100 validate-input m-lr-auto-lg" data-validate = "Email is required: ex@abc.xyz">
+							<input class="s2-txt1 placeholder0 input100 trans-04" type="text" name="email" placeholder="Email Address">
 
-      </section>
-    </section>
-  </section>
- <!-- navigation -->
- <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center sticky top-0 lg:py-0 py-2">
-   <section class="flex-1 flex justify-between items-center p-1">
-     <a href="index.html" class="flex items-center flex-shrink-0">
-         <img src="/public/img/logos.png" alt=""/>
-     </a>
-   </section>
-   <label for="menu-toggle" class="cursor-pointer lg:hidden block">
-        <img src="https://res.cloudinary.com/karsoft92/image/upload/v1568060903/icons8-menu-64.png" alt=""/>
-    </label>
+							<button class="flex-c-m ab-t-r size2 hov1">
+								<i class="zmdi zmdi-long-arrow-right fs-30 cl1 trans-04"></i>
+							</button>
+						</div>		
+					</form> -->
+				</div>
+			</div>
+			
+			<div class="flex-w">
+		<!-- 		<a href="#" class="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
+					<i class="fa fa-facebook"></i>
+				</a>
 
-    <input type="checkbox" class="hidden" id="menu-toggle">
-    <section class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-       <nav class="flex items-center justify-between flex-wrap bg-white p-6">
-    <section class="w-full block  flex-grow lg:flex lg:items-center lg:w-auto">
-      <section class="text-sm lg:flex-grow">
-        <a href="index.html" class="block mt-4 border-b-4 px-1 py-1   border-red-500 lg:inline-block lg:mt-0 text-gray-600 hover:border-b-4 hover:border-red-400 text-lg font-semibold hover:text-red-600 mr-4">
-          Home
-        </a>
-        <a href="about.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:border-b-4 hover:border-red-400 text-lg font-semibold hover:text-red-600 mr-4">
-          About Us
-        </a>
-        <a href="portfolio.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:border-b-4 hover:border-red-400 text-lg font-semibold hover:text-red-600 mr-4">
-          Portfolio
-        </a>
-        <a href="services.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:border-b-4 hover:border-red-400 text-lg font-semibold hover:text-red-600 mr-4">
-          Capabilities
-        </a>
-        <a href="contact.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:border-b-4 hover:border-red-400 text-lg font-semibold hover:text-red-600 mr-4">
-          Contact
-        </a>
-      </section>
-    </section>
-  </nav>
-    </section>
- </header>
-  <!-- /navigation -->
-<section class="carousel relative shadow-2xl bg-white mb-4">
-  <section class="carousel-inner relative overflow-hidden w-full">
-    <!--Slide 1-->
-    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-    <section class="carousel-item absolute opacity-0" style="height:80vh;">
-      <section class="block h-full w-full bg-indigo-500 text-white text-5xl text-center" style="background-image: url('https://images.unsplash.com/photo-1471193945509-9ad0617afabf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=small');background-size: cover; ">
-          <section class="mb-4 pt-4 mt-4 w-full h-full flex justify-center ">
-            <section class="self-center opacity-75 font-bold">Agriculture</section>
-          </section>
-      </section>
-    </section>
-    <label for="carousel-4" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-    <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+				<a href="#" class="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
+					<i class="fa fa-twitter"></i>
+				</a>
 
-    <!--Slide 2-->
-    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-    <section class="carousel-item absolute opacity-0" style="height:80vh;">
-      <section class="block h-full w-full bg-orange-500 text-white text-3xl md:text-5xl text-center" style="background-image: url('https://images.unsplash.com/photo-1495291916458-c12f594151e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');background-size: cover;">
-          <section class="mb-4 pt-4 mt-4 w-full h-full flex justify-center ">
-            <section class="self-center opacity-75 font-bold">Energy</section>
-          </section>
-      </section>
-    </section>
-    <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-    <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+				<a href="#" class="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
+					<i class="fa fa-youtube-play"></i>
+				</a> -->
+			</div>
+		</div>
+			
 
-    <!--Slide 3-->
-    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-    <section class="carousel-item absolute opacity-0" style="height:80vh;">
-      <section class="block h-full w-full bg-green-500 text-white text-3xl md:text-5xl text-center" style="background-image: url('https://images.unsplash.com/photo-1490197415175-074fd86b1fcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=small');background-size: cover;">
-        <section class="mb-4 pt-4 mt-4 w-full h-full flex justify-center ">
-            <section class="self-center opacity-75 font-bold">Real Estate</section>
-          </section>
-      </section>
-    </section>
-    <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-    <label for="carousel-4" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
-
-     <!--Slide 4-->
-    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
-    <section class="carousel-item absolute opacity-0" style="height:80vh;">
-      <section class="block h-full w-full bg-green-500 text-white text-3xl md:text-5xl text-center" style="background-image: url('https://images.unsplash.com/photo-1533664488202-6af66d26c44a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=small');background-size: cover;">
-         <section class="mb-4 pt-4 mt-4 w-full h-full flex justify-center ">
-            <section class="self-center opacity-75 font-bold">Telecommunication</section>
-          </section>
-      </section>
-    </section>
-    <label for="carousel-3" class="prev control-4 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
-    <label for="carousel-1" class="next control-4 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+		<div class="wsize1 simpleslide100-parent respon2">
+			<!--  -->
+			<div class="simpleslide100">
+				<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
+		
+			</div>
+		</div>
+	</div>
 
 
-    <!-- Add additional indicators for each slide-->
-    <ol class="carousel-indicators">
-      <li class="inline-block mr-3">
-        <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-      </li>
-      <li class="inline-block mr-3">
-        <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-      </li>
-      <li class="inline-block mr-3">
-        <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-      </li><li class="inline-block mr-3">
-        <label for="carousel-4" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
-      </li>
-    </ol>
 
-  </section>
-</section>
-    <section class="w-full">
-        <section class="md:w-2/3 mx-auto px-2 py-2">
-            <header class="text-2xl text-center font-extrabold  text-red-500 mb-4">Business Manager's Message</header>
-            <p class="font-normal text-lg mb-4"> Thank you for visiting our website. As you navigate our website, I hope you learn more about the qualities that make our company an outstanding provider of essential business development services and a wonderful firm to collaborate with.</p>
+	
 
-            <p class="font-normal text-lg mb-4"> Our dimension covers active micro-cap equity investments, deal origination and business strategy. By leveraging proven enterprise enhancement tools we unearth growth, profitability and competitiveness in businesses.
-            </p>
-        </section>
-    </section> <!-- /about us -->
-
-
-    <section class="w-full h-auto px-4 py-4" style="background-image: url('https://res.cloudinary.com/karsoft92/image/upload/v1575318541/thomas-drouault-IBUcu_9vXJc-unsplash.jpg');background-size: cover">
-      <section class="md:w-2/3 mx-auto">
-    <section class="md:flex md:justify-between mb-4">
-         <header class="text-2xl text-base capitalize text-white font-extrabold mb-4">Solutions We Provide</header>
-         <a href="services.html" class="uppercase text-base text-xl text-base text-white border-4 border-white font-extrabold mb-4 px-2 py-2">all capabilities</a>
-    </section>
-
-        <section class="md:flex px-1 py-1">
-           <section class="md:w-1/3 px-1 py-1 mb-4 mt-1 md:mr-2 rounded border-gray-200 bg-white overflow-hidden shadow-lg">
-              <img src="https://res.cloudinary.com/karsoft92/image/upload/v1575749582/undraw_business_plan_5i9d.png" class="w-full h-56 mb-2" alt="">
-             <header class="text-xl capitalize text-center text-gray-600 font-semibold text-2xl">business development</header>
-           </section>
-           <section class="md:w-1/3 px-1 py-1 mb-4 mt-1 md:mr-2 rounded border-gray-200 bg-white overflow-hidden shadow-lg">
-            <img src="https://res.cloudinary.com/karsoft92/image/upload/v1575752264/undraw_segment_analysis_bdn4.png" class="w-full h-56 mb-2" alt="">
-             <header class="text-xl capitalize text-center text-gray-600 font-semibold text-2xl">Micro-cap Private Equity</header>
-           </section>
-           <section class="md:w-1/3 px-1 py-1 mb-4 mt-1 md:mr-2 rounded border-gray-200 bg-white overflow-hidden shadow-lg">
-            <img src="https://res.cloudinary.com/karsoft92/image/upload/v1575752722/undraw_predictive_analytics_kf9n.png" class="w-full h-56 mb-2" alt="">
-             <header class="text-xl capitalize text-center text-gray-600 font-semibold text-2xl">Deal Origination</header>
-           </section>
-        </section>
-      </section>
-    </section>
-
-  <section class="w-full md:w-2/3 mx-auto mt-4 px-4 py-4">
-    <header class="font-bold text-xl md:text-center">We assist business owners to unlock values in their businesses </header>
-
-
-    <section class="md:flex mb-4 ">
-      <section class="w-full mb-4 md:1/3 py-2 px-2">
-        <header class="text-center text-xl font-semibold "><span class="text-3xl mr-3 text-red-500 font-extrabold">01</span>Integrity</header>
-      </section>
-      <section class="w-full mb-4 md:1/3 py-2 px-2 ">
-        <header class="text-center text-xl font-semibold"><span class="text-3xl mr-3 text-red-500 font-extrabold">02</span>Objectivity</header>
-
-      </section>
-      <section class="w-full mb-4 md:1/3 py-2 px-2">
-        <header class="text-center text-xl font-semibold"><span class="text-3xl mr-3 text-red-500 font-extrabold">03</span>Professional Competence</header>
-      </section>
-    </section>
-
-    <section class="md:flex mb-4">
-      <section class="w-full mb-4 md:1/2 py-2 px-2">
-
-        <header class="text-center text-xl font-semibold"><span class="text-3xl mr-3 text-red-500 font-extrabold">04</span>Confidentiality</header>
-
-      </section>
-      <section class="w-full mb-4 md:1/2 py-2 px-2">
-        <header class="text-center text-xl font-semibold"><span class="text-3xl mr-3 text-red-500 font-extrabold">05</span>Due Care</header>
-
-      </section>
-    </section>
-
-<!--     <section class="w-full md:w-2/3 mx-auto text-center">
-      <a href="about.html" class="text-center  hover:bg-red-500 text-xl text-red-500 focus:text-white font-bold border-4 border-red-500 px-2 py-2 hover:bg-white hover:text-white ">Know More</a>
-    </section> -->
-  </section>
-
-  <section class="w-full mx-auto md:w-2/3 px-4 py-4 mt-2 mb-4">
-    <section class="md:flex px-2 py-2 mb-4">
-      <section class="md:w-1/2 w-full m-1 border-red-500 bg-white rounded-lg border-4 px-2 py-2 mb-4">
-        <header class="font-extrabold text-4xl text-red-700 md:text-center">Portfolio</header>
-        <ul class="list-disc list-inside p-2 tracking-tight leading-loose">
-          <li><b>Rapid Power Termicore</b> (Independent Power Production, Renewable Energy, Bio-Fuels)</li>
-          <li><b>Agro Dynamics</b> (Food Processing, Commodity Trading, Brewery)</li>
-          <li><b>Trans Telecom Services</b> (IT Services, Internet Service Provision)</li>
-          <li><b>Simba Investments</b> (Real Estate Development, Property Management, Hotels, Malls, Pubs and Restaurants)</li>
-        </ul>
-      </section>
-      <section class="md:w-1/2 bg-white w-full m-1 border-red-500 rounded-lg border-4 px-4 py-4 mb-4">
-        <header class="font-extrabold text-4xl text-red-700 text-center">Clients</header>
-        <ul class="list-inside mb-4 text-xl">
-          <li><span class="fa fa-arrow-right text-xs"></span>Sinop Investments</li>
-          <li><span class="fa fa-arrow-right text-xs"></span>Bakeshop Classics</li>
-          <li><span class="fa fa-arrow-right text-xs"></span>Ntikul Ghana Limited</li>
-        </ul>
-       <section class="w-full md:w-2/3 mx-auto text-center mt-4">
-      <a href="portfolio.html"
-        class="text-center  hover:bg-red-500 text-xl text-red-500 focus:text-white font-bold border-4 border-red-500 px-2 py-2 hover:bg-white hover:text-white">And
-        More</a>
-        </section>
-      </section>
-    </section>
-
-    <section class="w-full text-center mt-4">
-       <a href="contact.html"
-         class="text-center  hover:bg-red-500 text-xl text-red-500 focus:text-white font-bold border-4 border-red-500 px-2 py-2 hover:bg-white hover:text-white ">Talk
-         To Us
-         More</a>
-    </section>
-  </section>
-
-  <!-- footer -->
-    <footer class="w-full mt-4 bg-gray-900 text-white font-bold px-4 py-2">
-        <section class="md:flex justify-between px-2 py-2">
-            <section class="md:w-1/2">
-                <p>&copy; 2018-19 All Rights Reserved. SGID</p>
-            </section>
-            <section class="md:w-1/2">
-                <header class="text-xs font-semibold">Get In Touch</header>
-                <ul>
-                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                    <li><a href="https://www.linkedin.com/in/daniel-amoako-asare-98196b105/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
-                    <li><span class="fa fa-map-pin"></span>&nbsp;BAC 85/3
-                        4th Mango Street
-                        Batsona, Spintex Road
-                        Accra-Ghana
-                    </li>
-                </ul>
-            </section>
-        </section>
-    </footer>
-    <!-- /footer -->
-    <!-- /footer -->
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
-
 </html>
