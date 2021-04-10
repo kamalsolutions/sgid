@@ -256,11 +256,26 @@ Primary use:
 [ Background ]*/
 .bg0 {background-color: #fff;}
 
-.bg-img1 {
+/*.bg-img1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}*/
+
+
+
+.bg-img1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+.bg-img2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 
 
